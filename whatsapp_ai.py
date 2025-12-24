@@ -8,7 +8,7 @@ os.makedirs("whatsapp_output", exist_ok=True)
 pattern = re.compile(
     r"\d{1,2}/\d{1,2}/\d{2,4}, .* - (.*?): (.*)"
 )
-
+#/Users/niteshv1520/Whatsapp-AI/whatsapp_ai.py
 # 2️⃣ Paths
 raw_data = "/Users/niteshv1520/Desktop/whatsApp_raw_chats"
 output_dir = "whatsapp_output"
