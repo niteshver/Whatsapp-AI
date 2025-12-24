@@ -6,9 +6,10 @@ os.makedirs("whatsapp_output", exist_ok=True)
 
 # 1️⃣ Regex pattern
 pattern = re.compile(
-    r"\d{1,2}/\d{1,2}/\d{2,4},\s*[\d:]+.*?\s*-\s*(.*?):\s*(.*)",
+    r"\d{1,2}/\d{1,2}/\d{2,4}.*?-\s*(.*?):\s*(.*)",
     re.IGNORECASE
 )
+
 
 #/Users/niteshv1520/Whatsapp-AI/whatsapp_ai.py
 # 2️⃣ Paths
@@ -39,7 +40,7 @@ for filename in os.listdir(RAW_FOLDER):
 
     with open(filepath, "r", encoding="utf-8") as f:
         for line in f:
-            match = pattern.match(line)
+            match = pattern.search(line)
             if match:
                 sender = match.group(1).strip()
                 text = match.group(2).strip()
