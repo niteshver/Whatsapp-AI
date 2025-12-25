@@ -2,7 +2,7 @@
 
 
 ## Folder Structure
-
+``` python
  whatsapp-ai-bot/
 │
 ├── whatsapp_raw_chats/
@@ -31,6 +31,7 @@
 │
 ├── README.md
 └── .gitignore
+```
 
 ## About
 
