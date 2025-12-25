@@ -157,7 +157,7 @@ For queries or discussions, feel free to contact the maintainer.
 
 ## 📌 Author
 
-**Maintained by: Nitesh 
-**Project Type:** Personal / Open Source  
-**Status:** Active Development
+- Maintained by: Nitesh
+- Project Type: Personal / Open Source  
+- Status:  Active Development
 
